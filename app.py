@@ -13,7 +13,7 @@ def home():
 @app.route('/predict', methods=['POST'])
 def predict():
     data = request.json
-    return predictor(data)
+    return str(predictor(data))
 
 if __name__ == '__main__':
     # Threaded option to enable multiple instances for multiple user access support
