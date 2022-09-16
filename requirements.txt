@@ -18,7 +18,7 @@ Jinja2==2.10.3
 numpy
 sklearn
 jsonschema==3.2.0
-Mako==1.1.0
+Mako==1.2.2
 MarkupSafe==1.1.1
 more-itertools==8.0.2
 psycopg2==2.8.4
